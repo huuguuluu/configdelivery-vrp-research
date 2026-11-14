@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configdelivery-vrp-repository-baseline
+  namespace: default
+data:
+  marker: benign-baseline
